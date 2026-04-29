@@ -19,7 +19,7 @@ return {
           ["<Leader>dc>"] = { function() require("dap").continue() end, desc = "Debug: Start/Continue" },
           ["<Leader>do"] = { function() require("dap").step_over() end, desc = "Debug: Step Over" },
           ["<Leader>di"] = { function() require("dap").step_into() end, desc = "Debug: Step Into" },
-          ["<Leader>d0"] = {function() require("dap").step_out() end, desc = "Debug: Step Out" },
+          ["<Leader>d0"] = { function() require("dap").step_out() end, desc = "Debug: Step Out" },
           ["<leader>db"] = { function() require("dap").step_out() end, desc = "Debug: Step Out" },
           ["<Leader>b"] = { function() require("dap").toggle_breakpoint() end, desc = "Debug: Toggle Breakpoint" },
           ["<Leader>du"] = { function() require("dapui").toggle() end, desc = "Debug: Toggle UI" },
